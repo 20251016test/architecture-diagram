@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.7" pages="2">
+  <diagram name="第 1 页" id="e1eu8ANfMj5BspgB04Xx">
+    <mxGraphModel dx="99839" dy="69748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-1" target="eaGk7KJobidhM5K8VxzF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-1" value="定時排程 (Scheduler / Cron)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-2" target="eaGk7KJobidhM5K8VxzF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-2" value="ETF 資料爬蟲 (Crawler)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-3" target="eaGk7KJobidhM5K8VxzF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-3" value="資料庫 (Database)" style="shape=database;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="70" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-4" target="eaGk7KJobidhM5K8VxzF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-4" value="策略分析模組 (Strategy Engine)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="274" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-5" target="eaGk7KJobidhM5K8VxzF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-5" value="推播系統 (Line / Telegram / Email)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="274" y="180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-6" value="推播與策略日誌 (Logs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-1" target="eaGk7KJobidhM5K8VxzF-2" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-2" target="eaGk7KJobidhM5K8VxzF-3" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-3" target="eaGk7KJobidhM5K8VxzF-4" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-4" target="eaGk7KJobidhM5K8VxzF-5" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-5" target="eaGk7KJobidhM5K8VxzF-6" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-17" target="eaGk7KJobidhM5K8VxzF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-17" value="Linux crontab 定時排程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-300" y="270" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-18" target="eaGk7KJobidhM5K8VxzF-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-18" value="Python 爬蟲程式 (Requests / BeautifulSoup / yfinance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-46" y="270" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-19" target="eaGk7KJobidhM5K8VxzF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-19" value="MariaDB 資料庫 (儲存 ETF 原始與歷史資料)" style="shape=database;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="14" y="368" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-20" target="eaGk7KJobidhM5K8VxzF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-20" value="Python 策略分析程式 (技術指標 / AI 模型 / 量化策略)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="210" y="373" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-21" target="eaGk7KJobidhM5K8VxzF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-21" value="推播通知模組 (Line Notify / Telegram Bot / Email)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-22" value="系統日誌與策略紀錄 (Log Files / DB Logging)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="470" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eaGk7KJobidhM5K8VxzF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-17" target="eaGk7KJobidhM5K8VxzF-18" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-18" target="eaGk7KJobidhM5K8VxzF-19" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-19" target="eaGk7KJobidhM5K8VxzF-20" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-20" target="eaGk7KJobidhM5K8VxzF-21" />
+        <mxCell id="eaGk7KJobidhM5K8VxzF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jettySize=auto;html=1;endArrow=block;" edge="1" parent="1" source="eaGk7KJobidhM5K8VxzF-21" target="eaGk7KJobidhM5K8VxzF-22" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zcMs1uFm2F1gGRE9nIq7" name="第 2 页">
+    <mxGraphModel dx="1057" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
